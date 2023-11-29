@@ -1,0 +1,37 @@
+@media (max-width: 425px) {
+    .logo svg {
+        padding-bottom: 10vh;
+        height: 39vh;
+    }
+
+    .texto,
+    .enviar,
+    .e-mail,
+    .botao-de-envio,
+    .leitura {
+        position: relative;
+        bottom: 6.8rem;
+        left: -0.5rem;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 16px;      
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    input,
+    button {
+        position: relative;
+        top: 0.5rem;
+        left: -1rem;
+    }
+
+    
+}
