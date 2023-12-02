@@ -1,21 +1,6 @@
-@media (max-width: 425px) {
-    .logo svg {
-        padding-bottom: 10vh;
-        height: 39vh;
-    }
-
-    .texto,
-    .enviar,
-    .e-mail,
-    .botao-de-envio,
-    .leitura {
-        position: relative;
-        bottom: 6.8rem;
-        left: -0.5rem;
-    }
-
+@media (max-width: 768px) {
     h2 {
-        font-size: 16px;      
+        font-size: 16px;
     }
 
     p {
@@ -29,8 +14,8 @@
     input,
     button {
         position: relative;
-        top: 0.5rem;
-        left: -1rem;
+        top: 0rem;
+        left: -0.3rem;
     }
 }
 
@@ -54,7 +39,7 @@
     button {
         position: relative;
         top: 0rem;
-        left: -1rem;
+        left: -0.5rem;
     }
 
     h2 {
@@ -70,8 +55,38 @@
     }
 }
 
-@media (max-width: 732px) {
+@media (max-width: 425px) {
+    .logo svg {
+        padding-bottom: 10vh;
+        height: 39vh;
+    }
+
+    .texto,
+    .enviar,
+    .e-mail,
+    .botao-de-envio,
+    .leitura {
+        position: relative;
+        bottom: 6.8rem;
+        left: -0.5rem;
+    }
+
+    h2 {
+        font-size: 16px;      
+    }
+
     p {
+        font-size: 12px;
+    }
+
+    h3 {
         font-size: 14px;
+    }
+
+    input,
+    button {
+        position: relative;
+        top: 0.5rem;
+        left: -0.5rem;
     }
 }
