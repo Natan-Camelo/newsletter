@@ -1,0 +1,76 @@
+@media (max-width: 1024px) {
+    .botao-de-envio svg {
+        padding: 4px 4px;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .e-mail {
+        font-size: 12px;
+    }
+
+    .botao-de-envio svg {
+        padding: 4px 4px;
+    }
+}
+
+@media (max-width: 660px) {
+    h2 {
+        font-size: 16px;      
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    h2 {
+        font-size: 13px;      
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    .texto,
+    .enviar,
+    .leitura{
+        position: relative;
+        bottom: 10vh;
+    }
+
+    .enviar {
+        left: -10px;
+    }
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}
